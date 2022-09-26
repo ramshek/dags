@@ -43,4 +43,5 @@ jobs:
         with:
           secrets: ${{ secrets.google_service_account_credentials }}
           bucket: 'test_dag_1'
+          sync_dir: 'dags'
           exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
