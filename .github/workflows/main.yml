@@ -9,7 +9,7 @@ on:
     types:
       - closed
     paths: 
-    - 'src/**'
+    - 'dags/**'
     branches:
       - main
 
